@@ -1,0 +1,93 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://image-cdn.medkomtek.com/SXwRwf3RzsGv-kzP39f4jCgmng0=/673x373/smart/klikdokter-media-buckets/medias/2318722/original/001812900_1599537937-Penyebab-Virus-Corona-shutterstock_1682648152.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Hai! Mari Pantau Informasi Perkembangan Seputar COVID-19",
+        "weight": "regular",
+        "size": "xs",
+        "align": "start",
+        "margin": "sm",
+        "style": "normal",
+        "decoration": "none",
+        "adjustMode": "shrink-to-fit",
+        "offsetEnd": "md",
+        "offsetStart": "none",
+        "wrap": true
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "text": "covid19",
+          "label": "Sejarah COVID-19"
+        }
+      },
+      {
+        "type": "button",
+        "style": "primary",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "Lihat Perkembangan COVID-19",
+          "uri": "https://covid19.go.id/peta-sebaran"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "Cara Mencegah COVID-19",
+          "text": "cara mencegah"
+        },
+        "style": "primary"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "uri": "http://insomarisuksesgroup.com/tescovid19/home.html",
+          "label": "Pra Test COVID-19"
+        },
+        "style": "primary"
+      },
+      {
+        "type": "spacer",
+        "size": "sm"
+      }
+    ],
+    "flex": 0,
+    "borderWidth": "normal",
+    "borderColor": "#D0D0D0",
+    "cornerRadius": "none"
+  },
+  "styles": {
+    "body": {
+      "separator": true,
+      "separatorColor": "#D0D0D0"
+    },
+    "footer": {
+      "separator": true,
+      "separatorColor": "#000000"
+    }
+  }
+}

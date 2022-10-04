@@ -1,0 +1,23 @@
+{
+    "name": "bot-suit/kenzoo",
+    "description": "Simple line bot using php slim framework",
+    "type": "project",
+    "require": {
+        "php": "^7.4",
+        "slim/slim": "^4.7",
+        "linecorp/line-bot-sdk": "^6.1",
+        "slim/psr7": "^1.3",
+        "nyholm/psr7": "^1.3",
+        "nyholm/psr7-server": "^1.0",
+        "guzzlehttp/psr7": "^1.7",
+        "http-interop/http-factory-guzzle": "^1.0",
+        "laminas/laminas-diactoros": "^2.5"
+    },
+    "authors": [
+        {
+            "name": "Muhamad Kenzo Akbar",
+            "email": "21kenzoakbar@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
